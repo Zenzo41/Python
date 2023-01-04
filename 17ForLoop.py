@@ -11,3 +11,5 @@ for price in prices:
     total += price
 print(f"Total : {total}")
     
+    
+    
