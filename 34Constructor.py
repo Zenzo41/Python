@@ -21,7 +21,7 @@ print(point.x)
 
 class Person:
     def talk(self):
-        print("talk")
+        print(f"Hi , I'm {self.name}")
         
     def __init__(self,name) :
         self.name = name
