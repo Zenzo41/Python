@@ -1,3 +1,3 @@
 import converter_module
 
-converter_module.kg_to_lbs(70)
+print(converter_module.kg_to_lbs(70))
