@@ -16,3 +16,18 @@ point = Point(10,20)
 print(point.x)
 point.x = 11
 print(point.x)
+
+#Function with constructor name and talk() method:
+
+class Person:
+    def talk(self):
+        print("talk")
+        
+    def __init__(self,name) :
+        self.name = name
+        
+
+
+john = Person("John Smith")
+print(john.name)
+john.talk()
